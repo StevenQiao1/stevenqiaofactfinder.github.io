@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Crimson+Text&family=Karla:wght@300&family=Montserrat:wght@300&family=Source+Code+Pro:wght@400&display=swap');
+
+
+/*
+https://coolors.co/00ffff-00d0fe-5fdd9d-cbe4ff-fbb1bd
+https://coolors.co/ffa630-eff9da-ffe084-555b6e-f9d8d6
+https://coolors.co/f88379-a9a9a9-bee3db-98fb98-bad4aa
+*/
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Crimson Text', serif;
+}
+
+main {
+	border: 1px solid #000;
+	display: grid;
+	width: 90vw;
+	height: 90vh;
+	grid-template-rows: 100px auto;
+	box-shadow: 10px 10px;
+}
+
+#factdisplay {
+	border: 1px solid #000;
+}
+
+form {
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+input {
+	padding: 15px;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #000;
+	border-radius: 100px;
+	margin: 20px;
+	font-family: 'Crimson Text', serif;
+	box-shadow: 5px 5px;
+}
+
+input:hover {
+	background-color: #000069;
+	transition-duration: 0.5s;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#factdisplay {
+	padding: 5vh 5vw; 
+	border: 2px solid #000;
+	margin: 12vh 15vw;
+	box-shadow: 7px 7px;
+	font-size: 2vh;
+}
+
+#whaleimage,
+#batimage,
+#milkimage,
+#bananaimage,
+#earimage {
+	width: auto;
+	height: 25vh;
+	display: block;
+	margin: 5vh auto;
+}
